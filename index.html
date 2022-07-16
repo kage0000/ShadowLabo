@@ -28,6 +28,14 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="masonry-grid__item">            
+            <h1>
+                <img src="trash/a.png" alt="かげの開発室">
+            </h1>      
+            <div class="center"> 
+                発癌性MAX
+            </div>
+        </div>
         <div class="masonry-grid__item">
             &#x1f31e;
             違法アップロード
@@ -42,25 +50,15 @@
             </audio>
             -->
         </div>
-        <div class="masonry-grid__item">      
-            <h1>
-                <img src="trash/a.png" alt="かげの開発室">
-            </h1>      
-            <div class="center"> 
-                発癌性MAX
-            </div>
-        </div>
         <div class="masonry-grid__item">
             <h2>更新履歴</h2>
-            <div>
-                <div class="scrollbox">
-                    2022/07/16 サイトリニューアル<br>
-                    2022/07/16 サイトリニューアル<br>
-                    2022/07/16 サイトリニューアル<br>
-                    2022/07/16 サイトリニューアル<br>
-                    2022/07/16 サイトリニューアル<br>
-                    2022/07/16 サイトリニューアル<br>
-                </div>
+            <div class="scrollbox">
+                2022/07/16 サイトリニューアル<br>
+                2022/07/16 サイトリニューアル<br>
+                2022/07/16 サイトリニューアル<br>
+                2022/07/16 サイトリニューアル<br>
+                2022/07/16 サイトリニューアル<br>
+                2022/07/16 サイトリニューアル<br>
             </div>
         </div>
         <div class="masonry-grid__item">
@@ -112,7 +110,9 @@
             </P>
         </div>
         <div class="masonry-grid__item">
-            <img src="trash/kage201m9.png" class="img_item">
+            「ぱおーん」
+            <br>
+            <img src="trash/animalloading.jpg" class="img_item" id='imageArea'>
         </div>
         <div class="masonry-grid__item">
             <h2>ハイパワーリンク</h2>
@@ -148,5 +148,30 @@
             </P>
         </div>
     </div>
+
+    <script>
+        const imageArea = document.getElementById('imageArea');
+        const images 
+        = [
+            'trash/animals-0-0.jpg', 
+            'trash/animals-1-0-0-0.jpg', 
+            'trash/animals-1-0-1-0-00-00.jpg',
+            'trash/animals-1-0-1-0-01-00.jpg',
+            'trash/animals-1-0-1-0-02-00.jpg',
+            'trash/animals-1-0-1-0-03-00.jpg',
+            'trash/animals-1-0-1-0-04-00.jpg',
+            'trash/animals-1-0-1-0-05-00.jpg',
+            'trash/animals-1-0-1-0-06-00.jpg',
+            'trash/animals-1-0-1-0-07-00.jpg',
+            'trash/animals-1-0-1-0-08-00.jpg',
+            'trash/animals-1-0-1-0-09-00.jpg',
+            'trash/animals-1-0-1-0-10-00.jpg',
+            'trash/animals-1-0-1-0-11-00.jpg',
+            'trash/animals-1-0-1-0-12-00.jpg',
+        ];
+        const imageNo = Math.floor( Math.random() * images.length);
+        imageArea.src = images[imageNo];
+    </script>
+
 </body>
 </html>

@@ -42,9 +42,11 @@ h4 {
 
 .wrapper {
     display: grid;
-    grid-template-columns: minmax(330px, auto) minmax(330px, auto) minmax(330px, auto);
+    grid-template-columns: 330px 330px 330px;
     grid-template-rows: auto auto auto;
-    justify-content: center; 
+
+    width: 990px;
+    margin: 0 auto;
 }
 
 .masonry-grid__item {
