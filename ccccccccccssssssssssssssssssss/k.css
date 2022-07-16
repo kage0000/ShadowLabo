@@ -42,7 +42,7 @@ h4 {
 
 .wrapper {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: minmax(330px, auto) minmax(330px, auto) minmax(330px, auto);
     grid-template-rows: auto auto auto;
     justify-content: center; 
 }
