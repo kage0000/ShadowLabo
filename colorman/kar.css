@@ -1,0 +1,72 @@
+body { background-color: #1e1e1e; }
+
+.moji {
+    color: #ffffff;
+}
+div.moji a { color: red; }
+
+.goods {
+ position: relative;
+}
+.goods a { display: block; }
+
+a#goods-menu {
+ width: 1140px;
+ height: 824px;
+}
+
+a#goods-menu2 {
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ width: 1140px;
+ height: 824px;
+}
+
+a#order {
+ position: absolute;
+ top: 13px;
+ left: 680px;
+ width: 444px;
+ height: 136px;
+}
+
+a#order1 {
+ position: absolute;
+ top: 297px;
+ left: 923px;
+ width: 187px;
+ height: 80px; 
+}
+
+a#order2 {
+ position: absolute;
+ top: 150px;
+ left: 677px;
+ width: 110px;
+ height: 140px;
+}
+
+a#order3 {
+ position: absolute;
+ top: 151px;
+ left: 900px;
+ width: 224px;
+ height: 143px;
+}
+
+a#order5 {
+ position: absolute;
+ top: 150px;
+ left: 788px;
+ width: 112px;
+ height: 141px;
+}
+
+a#order4 {
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ font-size:xx-large;
+ background-color: #00ff00;
+}
