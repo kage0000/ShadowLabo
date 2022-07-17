@@ -41,11 +41,10 @@ h4 {
 }
 
 .wrapper {
-    display: grid;
-    grid-template-columns: 330px 330px 330px;
-    grid-template-rows: auto auto auto;
-
-    width: 990px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    
     margin: 0 auto;
 }
 
@@ -59,6 +58,9 @@ h4 {
 
     margin: 5px;
     padding : 10px ;
+
+    width: 300px;
+    flex: none;
 }
 
 .img_item {
