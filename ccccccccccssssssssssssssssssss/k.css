@@ -76,4 +76,5 @@ h4 {
     overflow:auto;
     width: 300px;
     height:80px;
+    white-space: pre-line;
 }
